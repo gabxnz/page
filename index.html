@@ -1,91 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Gabriel</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #f0f4ff, #dce7ff);
+      color: #333;
+    }
 
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 50px 0;
-        }
+    header {
+      background-color: #4f6df5;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
 
-        header h1 {
-            margin: 0;
-            font-size: 3rem;
-        }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
 
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+    header p {
+      font-size: 1.2em;
+    }
 
-        .description {
-            text-align: center;
-            margin: 40px 0;
-        }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-        .buttons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
+    section h2 {
+      color: #4f6df5;
+      border-bottom: 2px solid #4f6df5;
+      padding-bottom: 5px;
+    }
 
-        .button {
-            background-color: #007bff;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2rem;
-            transition: background-color 0.3s;
-        }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin: 20px 0;
+    }
 
-        .button:hover {
-            background-color: #0056b3;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
-    </style>
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Portfólio de Gabriel</h1>
-    </header>
+  <header>
+    <h1>Gabriel Costa Guimarães</h1>
+    <p>Bem-vindo ao meu portfólio!</p>
+  </header>
 
-    <div class="container">
-        <section class="description">
-            <p>Olá! Eu sou Gabriel, desenvolvedor e entusiasta da tecnologia. Aqui você encontrará alguns dos meus projetos e formas de entrar em contato comigo.</p>
-        </section>
-
-        <section class="buttons">
-            <a href="https://github.com/gabxnz" class="button" target="_blank">GitHub</a>
-            <a href="https://www.instagram.com/gabxnz__/" class="button" target="_blank">Instagram</a>
-            <a href="https://www.linkedin.com/in/gabxnz/" class="button" target="_blank">LinkedIn</a>
-        </section>
+  <section>
+    <h2>Sobre mim</h2>
+    <div class="card">
+      <p>Olá! Meu nome é Gabriel. Sou estudante de Engenharia de Software.</p>
     </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Gabriel - Todos os direitos reservados.</p>
-    </footer>
+  <!-- PROJETOS -->
+  <section>
+    <h2>Projetos</h2>
+    <div class="card">
+      <ul>
+        <li>
+          <a href="https://docs.google.com/presentation/d/1fIMygtlxkl1yJTVEVxZsPHHY3HofZkYKxhT0z0dDSdk/edit?usp=sharing" target="_blank">
+            Apresentação do Projeto
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <div class="card">
+      <ul>
+        <li><a href="https://github.com/gabxnz" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/gabxnz" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Feito por Gabriel Costa Guimarães - 2025
+  </footer>
 
 </body>
 </html>
